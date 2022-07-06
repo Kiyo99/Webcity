@@ -67,30 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-
-  // placesAutoCompleteTextField() {
-  //   return Container(
-  //     padding: EdgeInsets.symmetric(horizontal: 20),
-  //     child: GooglePlaceAutoCompleteTextField(
-  //         textEditingController: controller,
-  //         googleAPIKey: "AIzaSyD8U8Ax2VJVC5Q3zpfn8ssMWrOO77YtBv0",
-  //         inputDecoration: InputDecoration(hintText: "Search your location"),
-  //         debounceTime: 800,
-  //         countries: [],
-  //         isLatLngRequired: true,
-  //         getPlaceDetailWithLatLng: (Prediction prediction) {
-  //           print("placeDetails" + prediction.lng.toString());
-  //         },
-  //         itmClick: (Prediction prediction) {
-  //           controller.text = prediction.description!;
-  //
-  //           controller.selection = TextSelection.fromPosition(
-  //               TextPosition(offset: prediction.description!.length));
-  //         }
-  //       // default 600 ms ,
-  //     ),
-  //   );
-  // }
 }
 
 void _navigateToPost(BuildContext context, String city) {

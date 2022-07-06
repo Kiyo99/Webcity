@@ -42,6 +42,7 @@ class SingleCityPage extends StatelessWidget {
   }
 
   Padding _buildPost(Map data) {
+    print('data is: $data');
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Center(
